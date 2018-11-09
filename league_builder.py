@@ -1,22 +1,27 @@
 import csv
 
-with open('soccer_players.csv', newline='') as csvfile:
-	player_reader = csv.DictReader(csvfile, delimiter=',')
-	rows = list(player_reader)
+
+def add_player(player):
+	# open file
+	file = open('teams.txt', 'a')
+	# write player to file
+	file.write(player)
+	# close file
+	file.close()
+
+
+def organize_players():
+	with open('soccer_players.csv', newline='') as csvfile:
+		player_reader = csv.DictReader(csvfile, delimiter=',')
+		rows = list(player_reader)
+		for row in rows:
+			if row['Soccer Experience'] == 'YES':
+				player_yes = row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'] + '\n'
+			else:
+				player_no = row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)']
+		add_player(player_yes)
+		add_player(player_no)
 	
-	for row in rows[::]:
-		if row['Soccer Experience'] == 'YES':
-			player_yes = row
-		elif row['Soccer Experience'] == 'NO':
-			player_no = row['Soccer Experience']
-	print(player_yes)
+organize_players()
 			
 
-	def add_player(player):
-		# open file
-		file = open('teams.txt', 'a')
-		# write player to file
-		file.write(player['Guardian Name(s)'])
-		# close file
-	
-add_player(player_yes)
