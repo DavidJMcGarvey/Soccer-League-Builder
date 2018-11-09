@@ -45,7 +45,8 @@ def no_ex_players():
 				pass
 
 
-# !! How do I use the two funtions that split the players into 3 teams?
+# Team names: Sharks, Raptors, Dragons
+# !! How do I use the two functions that split the players into 3 teams?
 # 3 players from each group (yes_ex and no_ex) per team
 yes_ex_players()
 no_ex_players()
