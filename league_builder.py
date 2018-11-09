@@ -1,5 +1,6 @@
 import csv
 
+
 # function to add player to separate file teams.txt
 def add_player(player):
 	# open file
@@ -13,15 +14,15 @@ def add_player(player):
 def yes_ex_players():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
-		# store player infomation in a variable
+		# store player information in a variable
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		# convert player info into a list to be iterated through
 		rows = list(player_list)
-		# iterate 
+		# iterate list
 		for row in rows:
 			# if player is a YES to having soccer experience,
 			if row['Soccer Experience'] == 'YES':
-				# get desired info, concatenate it, store it to variable
+				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
 			else:
 				pass
@@ -30,17 +31,21 @@ def yes_ex_players():
 def no_ex_players():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
-		# store player infomation in a variable
+		# store player information in a variable
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		# convert player info into a list to be iterated through
 		rows = list(player_list)
-		# iterate
+		# iterate list
 		for row in rows:
-			# if player is a YES to having soccer experience,
+			# if player is a NO to having soccer experience,
 			if row['Soccer Experience'] == 'NO':
+				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
 			else:
 				pass
 
+
+# !! How do I use the two funtions that split the players into 3 teams?
+# 3 players from each group (yes_ex and no_ex) per team
 yes_ex_players()
 no_ex_players()
