@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd4e07a-65ed-4e48-a45b-ffa8803c3dc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teams.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teams.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +62,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="51" selection-start-line="51" selection-end-line="51" />
+                <state relative-caret-position="-319">
+                  <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
                   <folding>
                     <marker date="1541804556467" expanded="true" signature="1459:1498" ph="..." />
                   </folding>
@@ -98,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/teams.txt" />
         <option value="$PROJECT_DIR$/league_builder.py" />
+        <option value="$PROJECT_DIR$/teams.txt" />
       </list>
     </option>
   </component>
@@ -230,18 +229,18 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/teams.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="-319">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <marker date="1541804556467" expanded="true" signature="1459:1498" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teams.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
