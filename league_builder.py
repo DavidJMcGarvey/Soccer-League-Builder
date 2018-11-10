@@ -62,6 +62,44 @@ def create_sharks():
 			if row['Soccer Experience'] == 'NO':
 				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
+				
+				
+def create_raptors():
+	# read csv file with player information
+	with open('soccer_players.csv', newline='') as csvfile:
+		# store player information in a variable
+		player_list = csv.DictReader(csvfile, delimiter=',')
+		# convert player info into a list to be iterated through
+		rows = list(player_list)
+		# iterate list
+		for row in rows[6:13]:
+			# if player is a YES to having soccer experience,
+			if row['Soccer Experience'] == 'YES':
+				# concatenate desired player info and write it to file using add_player
+				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
+		for row in rows[9:12]:
+			if row['Soccer Experience'] == 'NO':
+				# concatenate desired player info and write it to file using add_player
+				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
+				
+				
+def create_dragons():
+	# read csv file with player information
+	with open('soccer_players.csv', newline='') as csvfile:
+		# store player information in a variable
+		player_list = csv.DictReader(csvfile, delimiter=',')
+		# convert player info into a list to be iterated through
+		rows = list(player_list)
+		# iterate list
+		for row in rows[13:]:
+			# if player is a YES to having soccer experience,
+			if row['Soccer Experience'] == 'YES':
+				# concatenate desired player info and write it to file using add_player
+				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
+		for row in rows[13:]:
+			if row['Soccer Experience'] == 'NO':
+				# concatenate desired player info and write it to file using add_player
+				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
 	
 
 
@@ -74,3 +112,7 @@ def create_team(team):
 # 3 players from each group (yes_ex and no_ex) per team
 create_team('Sharks')
 create_sharks()
+create_team('Raptors')
+create_raptors()
+create_team('Dragons')
+create_raptors()
