@@ -6,7 +6,7 @@ def add_player(player):
 	# open file
 	file = open('teams.txt', 'a')
 	# write player to file
-	file.write(player+'\n')
+	file.write(player + '\n')
 	# close file
 	file.close()
 
@@ -43,7 +43,7 @@ def no_ex_players():
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
 			else:
 				pass
-			
+
 
 def create_sharks():
 	# read csv file with player information
@@ -62,8 +62,8 @@ def create_sharks():
 			if row['Soccer Experience'] == 'NO':
 				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
-				
-				
+
+
 def create_raptors():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
@@ -81,8 +81,8 @@ def create_raptors():
 			if row['Soccer Experience'] == 'NO':
 				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
-				
-				
+
+
 def create_dragons():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
@@ -100,19 +100,20 @@ def create_dragons():
 			if row['Soccer Experience'] == 'NO':
 				# concatenate desired player info and write it to file using add_player
 				add_player(row['Name'] + ', ' + row['Soccer Experience'] + ', ' + row['Guardian Name(s)'])
-	
 
 
 def create_team(team):
 	file = open('teams.txt', 'a')
-	file.write(team+'\n')
+	file.write(team + '\n')
+
 
 # Team names: Sharks, Raptors, Dragons
 # !! How do I use the two functions that split the players into 3 teams?
 # 3 players from each group (yes_ex and no_ex) per team
-create_team('Sharks')
-create_sharks()
-create_team('Raptors')
-create_raptors()
-create_team('Dragons')
-create_raptors()
+if __name__ == '__main__':
+	create_team('Sharks')
+	create_sharks()
+	create_team('Raptors')
+	create_raptors()
+	create_team('Dragons')
+	create_raptors()
