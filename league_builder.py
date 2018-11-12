@@ -35,10 +35,15 @@ def sharks_note():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
 		player_list = csv.DictReader(csvfile, delimiter=',')
+		# convert player info into a list to be iterated through
 		players = list(player_list)
+		# iterate (PORTION of) list...
 		for player in players[:6]:
+			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
+			# open and create file per player name
 			file = open('{}.txt'.format(player_name), 'a')
+			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + shark_practice + '. Thanks for joining our soccer league!')
 
 
@@ -66,14 +71,23 @@ def raptors_note():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
 		player_list = csv.DictReader(csvfile, delimiter=',')
+		# convert player info into a list to be iterated through
 		players = list(player_list)
+		# iterate (PORTION of) list...
 		for player in players[6:11]:
+			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
+			# open and create file per player name
 			file = open('{}.txt'.format(player_name), 'a')
+			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + raptor_practice + '. Thanks for joining our soccer league!')
+		# iterate (other PORTION of) list...
 		for player in players[12:13]:
+			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
+			# open and create file per player name
 			file = open('{}.txt'.format(player_name), 'a')
+			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + raptor_practice + '. Thanks for joining our soccer league!')
 
 
@@ -101,14 +115,23 @@ def dragons_note():
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
 		player_list = csv.DictReader(csvfile, delimiter=',')
+		# convert player info into a list to be iterated through
 		players = list(player_list)
+		# iterate (PORTION of) list...
 		for player in players[11:12]:
+			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
+			# open and create file per player name
 			file = open('{}.txt'.format(player_name), 'a')
+			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + dragon_practice + '. Thanks for joining our soccer league!')
+		# iterate (other PORTION of) list...
 		for player in players[14:]:
+			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
+			# open and create file per player name
 			file = open('{}.txt'.format(player_name), 'a')
+			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + dragon_practice + '. Thanks for joining our soccer league!')
 
 
@@ -118,7 +141,7 @@ def create_team(team):
 	file.write(team + '\n')
 
 
-# function to convert player name to lower and snake_case for title of 'Welcome' letters
+# function to convert name to snake and lower cases
 def to_snake_case(name):
 	final = ''
 	for i in range(len(name)):
