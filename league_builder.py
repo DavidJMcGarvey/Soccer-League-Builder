@@ -16,7 +16,7 @@ def add_team_name(team):
 	file = open('teams.txt', 'a')
 	file.write(team + '\n')
 
-
+# function to create teams
 def create_team(team):
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
@@ -62,7 +62,7 @@ def create_team(team):
 					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 
-
+# function to create welcome notes
 def create_note(team):
 	shark_practice = "Saturday at 9:00am"
 	raptor_practice = "Saturday at 10:00am"
@@ -139,6 +139,7 @@ def to_snake_case(name):
 	return final
 
 
+# function to call other functions
 def main():
 	create_team('Sharks')
 	create_team('Raptors')
