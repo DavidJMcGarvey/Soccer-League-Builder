@@ -126,7 +126,7 @@ def dragons_note():
 			# write message to that file with welcome message to guardian(s)
 			file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + dragon_practice + '. Thanks for joining our soccer league!')
 		# iterate (other PORTION of) list...
-		for player in players[14:]:
+		for player in players[13:]:
 			# call function to convert player name to snake and lower cases
 			player_name = to_snake_case(player['Name'])
 			# open and create file per player name
