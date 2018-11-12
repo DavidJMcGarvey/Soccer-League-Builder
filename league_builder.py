@@ -1,10 +1,23 @@
 import csv
-import re
 
 
-def convert(name):
-	s1 = re.sub('(.)([A-Z][a-z])+', r'\1_\2', name)
-	return re.sub('([a-z0-9])([A-Z])'), r'\1_\2', s1).lower()
+def to_snake_case(name):
+	final = ''
+	for i in range(len(name)):
+		item = name[i]
+		if i < len(name) - 1:
+			next_char_will_be_underscored = name[i+1] == '_' or name[i+1] == ' ' or name[i+1].isupper()
+		if (item == ' ' or item == '_') and next_char_will_be_underscored:
+			continue
+		elif item == ' ' or item == '_':
+			final += "_"
+		elif item.isupper():
+			final += '_'+item.lower()
+		else:
+			final += item
+	if final[0] == '_':
+		final = final[1:]
+	return final
 
 
 # function to add player to separate file teams.txt
@@ -21,13 +34,13 @@ def add_note_sharks():
 	shark_practice = "Saturday at 9:00am"
 	# raptor_practice = "Saturday at 10:00am"
 	# dragon_practice = "Saturday at 11:00am"
-	
 	with open('soccer_players.csv', newline='') as csvfile:
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		rows = list(player_list)
 		for row in rows[:6]:
-			file = open('{}.txt'.format(row['Name']), 'a')
-			file.write('Dear ' + row['Name'] + ', ' + row['Guardian Name(s)'] + '. Your first practice is ' + shark_practice)
+			player_name = to_snake_case(row['Name'])
+			file = open('{}.txt'.format(player_name), 'a')
+			file.write('Dear ' + row['Guardian Name(s)'] + ',\nYour child, ' + row['Name'] + ', has their first practice on ' + shark_practice + '. Thanks for joining our soccer league!')
 
 
 def create_sharks():
@@ -96,7 +109,7 @@ def create_team(team):
 # !! How do I use the two functions that split the players into 3 teams?
 # 3 players from each group (yes_ex and no_ex) per team
 if __name__ == '__main__':
-	convert(row['Name'])
+    add_note_sharks()
 	# create_team('Sharks')
 	# create_sharks()
 	# create_team('Raptors')
