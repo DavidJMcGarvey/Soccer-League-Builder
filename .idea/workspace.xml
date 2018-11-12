@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd4e07a-65ed-4e48-a45b-ffa8803c3dc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teams.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +33,14 @@
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="3" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="Python" value="3" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -46,32 +48,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="136" />
-          <entry key="py" value="5114" />
-          <entry key="txt" value="21" />
+          <entry key="py" value="5627" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="136" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="5114" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="5627" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7771382">
+    <splitter split-orientation="horizontal" split-proportion="0.69325656">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="817">
-                  <caret line="42" column="150" lean-forward="true" selection-start-line="42" selection-start-column="150" selection-end-line="42" selection-end-column="150" />
+                <state relative-caret-position="2128">
+                  <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
                   <folding>
-                    <marker date="1542043502821" expanded="true" signature="37:480" ph="..." />
-                    <marker date="1542043502821" expanded="true" signature="3841:3900" ph="..." />
-                    <marker date="1542043502821" expanded="true" signature="3900:3939" ph="..." />
+                    <marker date="1542047669320" expanded="true" signature="12:13" ph="..." />
+                    <marker date="1542047669320" expanded="true" signature="5295:5908" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -94,6 +95,15 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>row</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>players</replace>
+      <replace>player</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,6 +234,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15555556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -293,6 +304,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suzane_greenberg.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/soccer_players.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
@@ -304,17 +318,64 @@
     <entry file="file://$PROJECT_DIR$/teams.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/les_clay.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phillip_helm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/herschel_krustofski.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ben_finkelstein.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chloe_alaska.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnold_willis.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joe_kavalier.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sal_dali.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sammy_adams.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diego_soto.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karl_saygan.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kimmy_stein.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matt_gill.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eva_gordon.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bill_bon.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jill_tanner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joe_smith.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="42" column="150" lean-forward="true" selection-start-line="42" selection-start-column="150" selection-end-line="42" selection-end-column="150" />
+        <state relative-caret-position="2128">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
           <folding>
-            <marker date="1542043502821" expanded="true" signature="37:480" ph="..." />
-            <marker date="1542043502821" expanded="true" signature="3841:3900" ph="..." />
-            <marker date="1542043502821" expanded="true" signature="3900:3939" ph="..." />
+            <marker date="1542047669320" expanded="true" signature="12:13" ph="..." />
+            <marker date="1542047669320" expanded="true" signature="5295:5908" ph="..." />
           </folding>
         </state>
       </provider>
