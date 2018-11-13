@@ -120,23 +120,9 @@ def create_note(team):
 			
 			
 # function to convert name to snake and lower cases
-def to_snake_case(name):
-	final = ''
-	for i in range(len(name)):
-		item = name[i]
-		if i < len(name) - 1:
-			next_char_will_be_underscored = name[i+1] == '_' or name[i+1] == ' ' or name[i+1].isupper()
-		if (item == ' ' or item == '_') and next_char_will_be_underscored:
-			continue
-		elif item == ' ' or item == '_':
-			final += "_"
-		elif item.isupper():
-			final += '_'+item.lower()
-		else:
-			final += item
-	if final[0] == '_':
-		final = final[1:]
-	return final
+def to_snake_case(word):
+	return word.lower().replace(' ', '_')
+
 
 
 # function to call other functions
