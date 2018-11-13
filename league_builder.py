@@ -16,6 +16,7 @@ def add_team_name(team):
 	file = open('teams.txt', 'a')
 	file.write(team + '\n')
 
+
 # function to create teams
 def create_team(team):
 	# read csv file with player information
@@ -61,6 +62,7 @@ def create_team(team):
 				if player['Soccer Experience'] == 'NO':
 					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
+
 
 # function to create welcome notes
 def create_note(team):
@@ -122,7 +124,6 @@ def create_note(team):
 # function to convert name to snake and lower cases
 def to_snake_case(word):
 	return word.lower().replace(' ', '_')
-
 
 
 # function to call other functions

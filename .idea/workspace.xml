@@ -31,14 +31,14 @@
           <entry key="log" value="1" />
           <entry key="md" value="3" />
           <entry key="py" value="4" />
-          <entry key="txt" value="95" />
+          <entry key="txt" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="2" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="PLAIN_TEXT" value="98" />
           <entry key="Python" value="4" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -46,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="136" />
-          <entry key="py" value="6658" />
+          <entry key="py" value="6659" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -54,36 +54,24 @@
         <counts>
           <entry key="Markdown" value="136" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="6658" />
+          <entry key="Python" value="6659" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49095395">
+    <splitter split-orientation="horizontal" split-proportion="0.7705592">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="257">
-                  <caret line="103" column="74" lean-forward="true" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+                <state relative-caret-position="76">
+                  <caret line="43" selection-start-line="43" selection-end-line="43" />
                   <folding>
-                    <marker date="1542071005899" expanded="true" signature="12:13" ph="..." />
-                    <marker date="1542071005899" expanded="true" signature="5764:6002" ph="..." />
+                    <marker date="1542125085179" expanded="true" signature="12:13" ph="..." />
+                    <marker date="1542125085179" expanded="true" signature="5764:6002" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="133">
-                    <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-                  </first_editor>
-                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -120,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/league_builder.py" />
         <option value="$PROJECT_DIR$/teams.txt" />
+        <option value="$PROJECT_DIR$/league_builder.py" />
       </list>
     </option>
   </component>
@@ -376,13 +364,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arnold_willis.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/phillip_helm.txt.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/herschel_krustofski.txt.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arnold_willis.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/teams.txt">
@@ -390,11 +378,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="103" column="74" lean-forward="true" selection-start-line="103" selection-start-column="74" selection-end-line="103" selection-end-column="74" />
+        <state relative-caret-position="76">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <marker date="1542071005899" expanded="true" signature="12:13" ph="..." />
-            <marker date="1542071005899" expanded="true" signature="5764:6002" ph="..." />
+            <marker date="1542125085179" expanded="true" signature="12:13" ph="..." />
+            <marker date="1542125085179" expanded="true" signature="5764:6002" ph="..." />
           </folding>
         </state>
       </provider>
