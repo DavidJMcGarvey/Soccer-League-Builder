@@ -16,6 +16,15 @@ def add_team_name(team):
 	file = open('teams.txt', 'a')
 	file.write(team + '\n')
 
+def yes_ex_players():
+	with open('soccer_players.csv', newline='') as csvfile:
+		player_list = csv.reader(csvfile, delimiter=',')
+		players = list(player_list)
+		for player in players[:]:
+			if ['Soccer Experience'] == 'YES':
+				return player
+
+
 
 # function to create teams
 def create_team(team):
@@ -27,7 +36,7 @@ def create_team(team):
 		players = list(player_list)
 		if team == 'Sharks':
 			create_note(team)
-			add_team_name('Sharks')
+			add_team_name(team)
 			# iterate (PORTION of) list...
 			for player in players[:3]:
 				# if player is a YES to having soccer experience,
@@ -42,7 +51,7 @@ def create_team(team):
 		# repeat process for each team
 		if team == 'Raptors':
 			create_note(team)
-			add_team_name('Raptors')
+			add_team_name(team)
 			for player in players[6:13]:
 				if player['Soccer Experience'] == 'YES':
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
@@ -51,7 +60,7 @@ def create_team(team):
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 		if team == 'Dragons':
 			create_note(team)
-			add_team_name('Dragons')
+			add_team_name(team)
 			for player in players[13:]:
 				if player['Soccer Experience'] == 'YES':
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
@@ -119,4 +128,5 @@ def main():
 
 # to make sure script isn't executed when imported
 if __name__ == '__main__':
-	main()
+	yes_ex_players()
+	# main()
