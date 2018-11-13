@@ -25,19 +25,21 @@ def create_team(team):
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		# convert player info into a list to be iterated through
 		players = list(player_list)
-		# iterate (PORTION of) list...
 		if team == 'Sharks':
 			create_note(team)
 			add_team_name('Sharks')
+			# iterate (PORTION of) list...
 			for player in players[:3]:
 				# if player is a YES to having soccer experience,
 				if player['Soccer Experience'] == 'YES':
 					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
+			# iterate (other PORTION of) list...
 			for player in players[:6]:
+				# if player is a NO to having soccer experience,
 				if player['Soccer Experience'] == 'NO':
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
-		# repeat earlier process
+		# repeat process for each team
 		if team == 'Raptors':
 			create_note(team)
 			add_team_name('Raptors')
@@ -69,8 +71,9 @@ def create_note(team):
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		# convert player info into a list to be iterated through
 		players = list(player_list)
-		# iterate (PORTION of) list...
+		
 		if team == 'Sharks':
+			# iterate (PORTION of) list...
 			for player in players[:6]:
 				# call function to convert player name to snake and lower cases
 				player_name = to_snake_case(player['Name'])
@@ -78,40 +81,27 @@ def create_note(team):
 				file = open('{}.txt'.format(player_name), 'a')
 				# write message to that file with welcome message to guardian(s)
 				file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player['Name'] + ', has their first practice on ' + shark_practice + '. Thanks for joining our soccer league!')
+		# repeat process for each team
 		if team == 'Raptors':
 			for player in players[6:11]:
-				# call function to convert player name to snake and lower cases
 				player_name = to_snake_case(player['Name'])
-				# open and create file per player name
 				file = open('{}.txt'.format(player_name), 'a')
-				# write message to that file with welcome message to guardian(s)
 				file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player[
 					'Name'] + ', has their first practice on ' + raptor_practice + '. Thanks for joining our soccer league!')
-			# iterate (other PORTION of) list...
 			for player in players[12:13]:
-				# call function to convert player name to snake and lower cases
 				player_name = to_snake_case(player['Name'])
-				# open and create file per player name
 				file = open('{}.txt'.format(player_name), 'a')
-				# write message to that file with welcome message to guardian(s)
 				file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player[
 					'Name'] + ', has their first practice on ' + raptor_practice + '. Thanks for joining our soccer league!')
 		if team == 'Dragons':
 			for player in players[11:12]:
-				# call function to convert player name to snake and lower cases
 				player_name = to_snake_case(player['Name'])
-				# open and create file per player name
 				file = open('{}.txt'.format(player_name), 'a')
-				# write message to that file with welcome message to guardian(s)
 				file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player[
 					'Name'] + ', has their first practice on ' + dragon_practice + '. Thanks for joining our soccer league!')
-			# iterate (other PORTION of) list...
 			for player in players[13:]:
-				# call function to convert player name to snake and lower cases
 				player_name = to_snake_case(player['Name'])
-				# open and create file per player name
 				file = open('{}.txt'.format(player_name), 'a')
-				# write message to that file with welcome message to guardian(s)
 				file.write('Dear ' + player['Guardian Name(s)'] + ',\nYour child, ' + player[
 					'Name'] + ', has their first practice on ' + dragon_practice + '. Thanks for joining our soccer league!')
 			
