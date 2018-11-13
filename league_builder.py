@@ -36,39 +36,34 @@ def create_team(team):
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 			for player in players[:6]:
 				if player['Soccer Experience'] == 'NO':
-					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
+		# repeat earlier process
 		if team == 'Raptors':
 			create_note(team)
 			add_team_name('Raptors')
 			for player in players[6:13]:
-				# if player is a YES to having soccer experience,
 				if player['Soccer Experience'] == 'YES':
-					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 			for player in players[6:11]:
 				if player['Soccer Experience'] == 'NO':
-					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 		if team == 'Dragons':
 			create_note(team)
 			add_team_name('Dragons')
 			for player in players[13:]:
-				# if player is a YES to having soccer experience,
 				if player['Soccer Experience'] == 'YES':
-					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 			for player in players[11:]:
 				if player['Soccer Experience'] == 'NO':
-					# concatenate desired player info and write it to file using add_player
 					add_player(player['Name'] + ', ' + player['Soccer Experience'] + ', ' + player['Guardian Name(s)'])
 
 
 # function to create welcome notes
 def create_note(team):
-	shark_practice = "Saturday at 9:00am"
-	raptor_practice = "Saturday at 10:00am"
-	dragon_practice = "Saturday at 11:00am"
+	# set practice time and location
+	shark_practice = "Saturday at 9:00am, at Washington Park"
+	raptor_practice = "Saturday at 10:00am, at Washington Park"
+	dragon_practice = "Saturday at 11:00am, at Washington Park"
 	# read csv file with player information
 	with open('soccer_players.csv', newline='') as csvfile:
 		player_list = csv.DictReader(csvfile, delimiter=',')
