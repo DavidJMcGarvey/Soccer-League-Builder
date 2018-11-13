@@ -71,7 +71,6 @@ def create_note(team):
 		player_list = csv.DictReader(csvfile, delimiter=',')
 		# convert player info into a list to be iterated through
 		players = list(player_list)
-		
 		if team == 'Sharks':
 			# iterate (PORTION of) list...
 			for player in players[:6]:
