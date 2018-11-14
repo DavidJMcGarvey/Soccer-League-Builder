@@ -16,15 +16,6 @@ def add_team_name(team):
 	file = open('teams.txt', 'a')
 	file.write(team + '\n')
 
-def yes_ex_players():
-	with open('soccer_players.csv', newline='') as csvfile:
-		player_list = csv.reader(csvfile, delimiter=',')
-		players = list(player_list)
-		for player in players[:]:
-			if ['Soccer Experience'] == 'YES':
-				return player
-
-
 
 # function to create teams
 def create_team(team):
@@ -128,5 +119,4 @@ def main():
 
 # to make sure script isn't executed when imported
 if __name__ == '__main__':
-	yes_ex_players()
-	# main()
+	main()
