@@ -1,6 +1,5 @@
 import csv
 
-
 # Empty lists for moving players around
 all_players = []
 experienced_players = []
@@ -80,19 +79,28 @@ def add_note(team):
 			file = open('{}.txt'.format(player[0].lower().replace(' ', '_')), 'a')
 			guardian = player[3]
 			child = player[0]
-			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Sharks! Their first practice is this Saturday, 9:00am at Washington Park. We all are looking forward to a fun season!"  )
+			file.write(
+				"Dear " + guardian + ",\nWe're excited that your child, " + child +
+				", is joining the Sharks! Their first practice is this Saturday, "
+				"9:00am at Washington Park. We all are looking forward to a fun season!")
 	if team == 'Raptors':
 		for player in Raptors:
 			file = open('{}.txt'.format(player[0].lower().replace(' ', '_')), 'a')
 			guardian = player[3]
 			child = player[0]
-			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Raptors! Their first practice is this Saturday, 10:00am at Washington Park. We all are looking forward to a fun season!"  )
+			file.write(
+				"Dear " + guardian + ",\nWe're excited that your child, " + child +
+				", is joining the Raptors! Their first practice is this Saturday, "
+				"10:00am at Washington Park. We all are looking forward to a fun season!")
 	if team == 'Dragons':
 		for player in Dragons:
 			file = open('{}.txt'.format(player[0].lower().replace(' ', '_')), 'a')
 			guardian = player[3]
 			child = player[0]
-			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Dragons! Their first practice is this Saturday, 11:00am at Washington Park. We all are looking forward to a fun season!"  )
+			file.write(
+				"Dear " + guardian + ",\nWe're excited that your child, " + child +
+				", is joining the Dragons! Their first practice is this Saturday, "
+				"11:00am at Washington Park. We all are looking forward to a fun season!")
 
 
 # function to compile necessary function calls

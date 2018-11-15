@@ -67,7 +67,7 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="md" value="1303" />
-          <entry key="py" value="11851" />
+          <entry key="py" value="11864" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -75,28 +75,28 @@
         <counts>
           <entry key="Markdown" value="1303" />
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="11851" />
+          <entry key="Python" value="11864" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.643026">
+    <splitter split-orientation="horizontal" split-proportion="0.64145">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+                <state relative-caret-position="272">
+                  <caret line="101" column="105" lean-forward="true" selection-start-line="101" selection-start-column="105" selection-end-line="101" selection-end-column="105" />
                   <folding>
-                    <marker date="1542299822855" expanded="true" signature="241:243" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="460:3568" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="681:682" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="705:746" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="705:3568" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="2038:3211" ph="..." />
-                    <marker date="1542299822855" expanded="true" signature="3222:3533" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="240:242" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="459:3609" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="680:681" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="704:745" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="704:3609" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="2037:3252" ph="..." />
+                    <marker date="1542300115927" expanded="true" signature="3263:3574" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -478,16 +478,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="101" column="105" lean-forward="true" selection-start-line="101" selection-start-column="105" selection-end-line="101" selection-end-column="105" />
           <folding>
-            <marker date="1542299822855" expanded="true" signature="241:243" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="460:3568" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="681:682" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="705:746" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="705:3568" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="2038:3211" ph="..." />
-            <marker date="1542299822855" expanded="true" signature="3222:3533" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="240:242" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="459:3609" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="680:681" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="704:745" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="704:3609" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="2037:3252" ph="..." />
+            <marker date="1542300115927" expanded="true" signature="3263:3574" ph="..." />
           </folding>
         </state>
       </provider>
