@@ -26,6 +26,7 @@ def experience_split():
 		if player[2] == 'NO':
 			novice_players.append(player)
 
+
 # function to evenly divide experience and novice players to each team
 def divide_teams(team):
 	for player in experienced_players[:3]:
@@ -92,6 +93,7 @@ def add_note(team):
 			guardian = player[3]
 			child = player[0]
 			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Dragons! Their first practice is this Saturday, 11:00am at Washington Park. We all are looking forward to a fun season!"  )
+
 
 # function to compile necessary function calls
 def main():
