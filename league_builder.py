@@ -10,6 +10,7 @@ Raptors = []
 Sharks = []
 
 
+# function to read csv and add player info to all_players list
 def read_csv(csv_file):
 	with open(csv_file, newline='') as file:
 		rows = csv.reader(file, delimiter=',')
@@ -17,6 +18,7 @@ def read_csv(csv_file):
 			all_players.append(row)
 
 
+# function to split all_players into groups based on experience
 def experience_split():
 	for player in all_players:
 		if player[2] == 'YES':
@@ -24,7 +26,7 @@ def experience_split():
 		if player[2] == 'NO':
 			novice_players.append(player)
 
-
+# function to evenly divide experience and novice players to each team
 def divide_teams(team):
 	for player in experienced_players[:3]:
 		if team == 'Sharks':
@@ -70,6 +72,7 @@ def add_team(team):
 	file.close()
 
 
+# function to add 'Welcome' note to guardian(s)
 def add_note(team):
 	if team == 'Sharks':
 		for player in Sharks:
@@ -90,7 +93,7 @@ def add_note(team):
 			child = player[0]
 			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Dragons! Their first practice is this Saturday, 11:00am at Washington Park. We all are looking forward to a fun season!"  )
 
-
+# function to compile necessary function calls
 def main():
 	read_csv("Soccer_players.csv")
 	experience_split()
@@ -105,5 +108,6 @@ def main():
 	add_note('Dragons')
 
 
+# code block to prevent script from executing if imported
 if __name__ == '__main__':
 	main()
