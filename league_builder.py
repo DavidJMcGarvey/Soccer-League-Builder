@@ -69,6 +69,7 @@ def add_team(team):
 				file.write(player)
 	file.close()
 
+
 def add_note(team):
 	if team == 'Sharks':
 		for player in Sharks:

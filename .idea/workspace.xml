@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd4e07a-65ed-4e48-a45b-ffa8803c3dc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST_league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_league_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teams.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teams.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_builder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="md" value="1303" />
-          <entry key="py" value="11278" />
+          <entry key="py" value="11279" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -78,7 +74,7 @@
         <counts>
           <entry key="Markdown" value="1303" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="11278" />
+          <entry key="Python" value="11279" />
         </counts>
       </usages-collector>
     </session>
@@ -87,32 +83,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.65347224">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
-                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                <state relative-caret-position="329">
+                  <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
                   <folding>
-                    <marker date="1542251084296" expanded="true" signature="178:180" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="333:3220" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="483:484" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="507:548" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="507:3220" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="1791:2921" ph="..." />
-                    <marker date="1542251084296" expanded="true" signature="2932:3185" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="178:180" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="333:3221" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="483:484" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="507:548" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="507:3221" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="1792:2922" ph="..." />
+                    <marker date="1542251372640" expanded="true" signature="2933:3186" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="285">
-                    <caret line="6" column="130" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
-                  </first_editor>
-                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -152,8 +136,8 @@
         <option value="$PROJECT_DIR$/TEST_league_builder.py" />
         <option value="$PROJECT_DIR$/eva_gordon" />
         <option value="$PROJECT_DIR$/teams.txt" />
-        <option value="$PROJECT_DIR$/league_builder.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/league_builder.py" />
       </list>
     </option>
   </component>
@@ -483,22 +467,6 @@
     <entry file="file://$PROJECT_DIR$/teams.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/league_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1542251084296" expanded="true" signature="178:180" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="333:3220" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="483:484" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="507:548" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="507:3220" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="1791:2921" ph="..." />
-            <marker date="1542251084296" expanded="true" signature="2932:3185" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -506,6 +474,22 @@
             <caret line="6" column="130" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/league_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <marker date="1542251372640" expanded="true" signature="178:180" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="333:3221" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="483:484" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="507:548" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="507:3221" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="1792:2922" ph="..." />
+            <marker date="1542251372640" expanded="true" signature="2933:3186" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
