@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd4e07a-65ed-4e48-a45b-ffa8803c3dc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/league_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/league_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_league_builder.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6">
+                <state relative-caret-position="243">
                   <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
                   <folding>
                     <marker date="1542251420124" expanded="true" signature="178:180" ph="..." />
@@ -401,11 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1804">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <marker date="1542217433691" expanded="true" signature="12:13" ph="..." />
-            <marker date="1542217433691" expanded="true" signature="347:348" ph="..." />
-            <marker date="1542217433691" expanded="true" signature="4714:4951" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="243">
           <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <marker date="1542251420124" expanded="true" signature="178:180" ph="..." />
