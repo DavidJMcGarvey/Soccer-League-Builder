@@ -89,9 +89,8 @@ def add_note(team):
 			guardian = player[3]
 			child = player[0]
 			file.write("Dear " + guardian + ",\nWe're excited that your child, " + child + ", is joining the Dragons! Their first practice is this Saturday, 11:00am at Washington Park. We all are looking forward to a fun season!"  )
-	
-	
-	
+
+
 def main():
 	read_csv("Soccer_players.csv")
 	experience_split()

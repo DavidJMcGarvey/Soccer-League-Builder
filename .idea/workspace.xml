@@ -66,7 +66,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="md" value="1303" />
-          <entry key="py" value="11279" />
+          <entry key="py" value="11281" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -74,28 +74,28 @@
         <counts>
           <entry key="Markdown" value="1303" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="11279" />
+          <entry key="Python" value="11281" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65347224">
+    <splitter split-orientation="horizontal" split-proportion="0.643026">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/league_builder.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+                <state relative-caret-position="6">
+                  <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
                   <folding>
-                    <marker date="1542251372640" expanded="true" signature="178:180" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="333:3221" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="483:484" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="507:548" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="507:3221" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="1792:2922" ph="..." />
-                    <marker date="1542251372640" expanded="true" signature="2933:3186" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="178:180" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="333:3217" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="483:484" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="507:548" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="507:3217" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="1792:2918" ph="..." />
+                    <marker date="1542251420124" expanded="true" signature="2929:3182" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/team.txt" />
         <option value="$PROJECT_DIR$/TEST_league_builder.py" />
         <option value="$PROJECT_DIR$/eva_gordon" />
-        <option value="$PROJECT_DIR$/teams.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/teams.txt" />
         <option value="$PROJECT_DIR$/league_builder.py" />
       </list>
     </option>
@@ -257,7 +257,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -464,9 +463,6 @@
     <entry file="file://$PROJECT_DIR$/joe_smith">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/teams.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -477,18 +473,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/teams.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/league_builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="6">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
-            <marker date="1542251372640" expanded="true" signature="178:180" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="333:3221" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="483:484" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="507:548" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="507:3221" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="1792:2922" ph="..." />
-            <marker date="1542251372640" expanded="true" signature="2933:3186" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="178:180" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="333:3217" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="483:484" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="507:548" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="507:3217" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="1792:2918" ph="..." />
+            <marker date="1542251420124" expanded="true" signature="2929:3182" ph="..." />
           </folding>
         </state>
       </provider>
